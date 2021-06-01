@@ -16,7 +16,8 @@ std::string infx2pstfx(std::string inf) {
   return std::string("");
   std::stack<char> stack;
     std::string str;
-    for (int i = 0; i < inf.length(); i++) {
+    for (int i = 0; i < inf.length(); i++) 
+    {
         if ((inf[i] >= '0') && (inf[i] <= '9')) {
             str = str + inf[i];
             str = str + " ";
